@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+/* NAVBAR*/
+.nav {
+    background-color: #35e69f;
+    padding: 20px 0px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    position: fixed;
+}
+
+.nav a {
+    color: #000;
+    font-size: 18px;
+    padding: 20 15px;
+    text-decoration: none;
+    margin-left: 0;
+    display: blocks;
+    transition: 0.4s; 
+}
+
+.nav a:hover {
+    background-color: #fff;
+}
+
+/* INNOVATE@TRIX*/
+.innovate{
+    height: 75%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.innovate::before{
+    position: absolute;
+    background-attachment: fixed;
+    background-image: url("images/car1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    height: 75%;
+    width: 100%;
+    z-index: -1;
+}
+
+h1{
+    color: #fff;
+    padding-top: 12vw;
+    font-family:  'Sigmar One', cursive;
+    font-size: 4.5vw;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: #f1f1f6;
+}
+
+ol{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+li{
+    color: #fff;
+    font-size: 2vw;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 10vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+}
+
+/* CONFER@TRIX */
+.con{
+    height: 75%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.con::before{
+    position: absolute;
+    background-attachment: fixed;
+    background-image: url("images/Con.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    height: 75%;
+    width: 100%;
+    z-index: -1;
+}
+
+/* MOVIE@TRIX */
+.movie{
+    height: 75%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.movie::before{
+    position: absolute;
+    background-attachment: fixed;
+    background-image: url("images/movie.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    height: 75%;
+    width: 100%;
+    z-index: -1;
+}
+
+/* QUIZ@TRIX */
+.quiz{
+    height: 75%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.quiz::before{
+    position: absolute;
+    background-attachment: fixed;
+    background-image: url("images/quiz.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    height: 75%;
+    width: 100%;
+    z-index: -1;
+}
+
+/* ANIM@TRIX */
+.anime{
+    height: 75%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.anime::before{
+    position: absolute;
+    background-attachment: fixed;
+    background-image: url("images/anime.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    height: 75%;
+    width: 100%;
+    z-index: -1;
+}  
+
+/* SNAP@TRIX */
+.snap{
+    height: 75%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.snap::before{
+    position: absolute;
+    background-attachment: fixed;
+    background-image: url("images/snap.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    height: 75%;
+    width: 100%;
+    z-index: -1;
+}  
+
+/* INGENUINE */
+.ing{
+    height: 75%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.ing::before{
+    position: absolute;
+    background-attachment: fixed;
+    background-image: url("images/ingenuine.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    height: 75%;
+    width: 100%;
+    z-index: -1;
+}  
+
+.code{
+    height: 75%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.code::before{
+    position: absolute;
+    background-attachment: fixed;
+    background-image: url("images/web.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    height: 75%;
+    width: 100%;
+    z-index: -1;
+}   
