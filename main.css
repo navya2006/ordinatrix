@@ -8,9 +8,11 @@
 /* BODY */
 body {
     background-color: #232323;
+    Overflow-x: hidden;
 }
 
 /*loader*/
+/*
 .load{
     background-color: #222;
     height: 100%;
@@ -50,6 +52,7 @@ body {
 .loader .load5{
     -webkit-animation-delay: -0.8s;
 }
+*/
 
 /* NAVBAR */
 .nav {
@@ -133,7 +136,6 @@ body {
 
 /* ABOUT */
 .div {
-    height: 70%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
@@ -174,9 +176,10 @@ body {
 /* EVENTS */
 .events{
     background-color: #222;
-    height: 110%;
+    height: auto;
     width: 100%;
 }
+
 
 .events h1{
     color: #feffe6;
@@ -200,12 +203,13 @@ body {
 }
 
 .events .border .icon-large{
-    font-size: 9.5em;
+    font-size: 8.5em;
     color: #ffc96b;
     float: left;
     display: block;
     margin-bottom: 1vw;
     padding-left: 1.5vw;
+    
 }
 
 .events .border h2{
@@ -224,7 +228,7 @@ body {
 
 /* PYROTECH */
 .pyrotech{
-    height: 82%;
+    height: auto;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -264,12 +268,13 @@ body {
     font-family: 'Oswald', sans-serif;
     padding-left: 4.5vw;
     padding-right: 4.5vw;
+    padding-bottom: 2.5vw;
 }
 
 /* TEAM */
 .team{
     background-color: #333;
-    height: 145%;
+    height: auto;
     width: 100%;
     align-content: center;
 }
