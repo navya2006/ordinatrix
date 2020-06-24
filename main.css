@@ -228,7 +228,6 @@ body {
 
 /* PYROTECH */
 .pyrotech{
-    height: auto;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -332,7 +331,6 @@ body {
 /* contact us*/
 
 .contact{
-    height: 85%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -345,7 +343,7 @@ body {
     background-size: cover;
     background-position: center;
     content: "";
-    height: 85%;
+    height: 79.5%;
     width: 100%;
     z-index: -1;
 }
